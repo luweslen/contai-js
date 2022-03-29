@@ -94,7 +94,7 @@ class ContactsController {
     ctx.body = {
       meta: params,
       data: {
-        tutorials: contacts,
+        contacts: contacts,
       },
     };
   }

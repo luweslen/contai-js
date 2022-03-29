@@ -7,6 +7,7 @@ export type GetAllParamsType = {
   sortIn?: string;
   skip?: number;
   limit?: number;
+  total?: number;
 }
 
 class ContactModel {
